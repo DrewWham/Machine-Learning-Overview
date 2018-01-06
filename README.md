@@ -50,8 +50,8 @@ Use cases: A/B/C... tests, maintain equalibrium or setpoint, explore/exploit opt
 Examples:Website optimization, content personalization, auto pilot
 
 ### Autonomus Control/Decision Theory
-* PID Algorithm
-* Bandit Algorithms
+* PID Algorithm - [PID controller](https://en.wikipedia.org/wiki/PID_controller) ([Python Code](https://github.com/ivmech/ivPID))
+* Bandit Algorithms - [Introduction to Multi-Armed Bandits](http://slivkins.com/work/MAB-book.pdf) ([Python Code](https://github.com/johnmyleswhite/BanditsBook))
 * Reinforcement Learning
 
 
