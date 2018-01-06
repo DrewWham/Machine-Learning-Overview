@@ -8,7 +8,7 @@ Examples: Sales forecasting, Vegas odds, insurance risk, credit fraud detection
 ### Regression
 * Least Squares
 * Sequential
-* Penalized Regression
+* Penalized Regression - [glmnet - R Package] (https://cran.r-project.org/web/packages/glmnet/glmnet.pdf)
    * Ridge
    * LASSO
    * Group LASSO, Elastic Net ...
