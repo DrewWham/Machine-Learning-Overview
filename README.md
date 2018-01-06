@@ -13,7 +13,7 @@ Examples: Sales forecasting, Vegas odds, insurance risk, credit fraud detection
    * LASSO
    * Group LASSO, Elastic Net ...
 * Gaussian Process regression - [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf) [Python code](http://scikit-learn.org/stable/modules/gaussian_process.html)
-* Decision Tree - [Generalized Boosted Regression Model - R package](https://cran.r-project.org/web/packages/gbm/gbm.pdf) [random forest - R package](https://cran.r-project.org/web/packages/randomForest/randomForest.pdf) [lightGBM - Python package](http://lightgbm.readthedocs.io/en/latest/) [xgboost - R and Python package](http://xgboost.readthedocs.io/en/latest/)
+* Decision Tree - ([R package - Generalized Boosted Regression Model](https://cran.r-project.org/web/packages/gbm/gbm.pdf)) ([ R package - random forest](https://cran.r-project.org/web/packages/randomForest/randomForest.pdf)) ([Python package with GPU acceleration - lightGBM ](http://lightgbm.readthedocs.io/en/latest/)) ([R and Python package with GPU acceleration - xgboost](http://xgboost.readthedocs.io/en/latest/))
 * [Support vector machines](https://en.wikipedia.org/wiki/Support_vector_machine) ([GPU accelerated code](https://github.com/zeyiwen/thundersvm))
 * Neural Networks 
 ### Classification
