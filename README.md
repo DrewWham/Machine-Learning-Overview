@@ -1,6 +1,7 @@
 # Machine-Learning-Overview
 
 ##Supervised
+
 ### Regression
 * Least Squares
 * Sequential
