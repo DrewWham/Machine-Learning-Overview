@@ -26,8 +26,8 @@ Examples: Sales forecasting, Vegas odds, insurance risk, credit fraud detection
 
 
 ### Supervised Dimensionality Reduction
-* LDA
-* DAPC
+* [Linear discriminant analysis](https://en.wikipedia.org/wiki/Linear_discriminant_analysis)
+* [Discriminant analysis of principal components (DAPC)](https://grunwaldlab.github.io/Population_Genetics_in_R/DAPC.html)([R package - adegenet](http://adegenet.r-forge.r-project.org))
 
 ## Unsupervised
 --------
