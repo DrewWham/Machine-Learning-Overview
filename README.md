@@ -34,7 +34,7 @@ Examples: Youtube Recomendations, google translate
 
 ### Dimensionality Reduction
 * PCA
-* T-SNE
+* T-SNE - [Comprehensive Guide on t-SNE algorithm with implementation in R & Python](https://www.analyticsvidhya.com/blog/2017/01/t-sne-implementation-r-python/) ([R Package](https://cran.r-project.org/web/packages/Rtsne/Rtsne.pdf))
 * Vector Embeddings/Distributed Representations
 * Matrix Factorization
 * Autoencoders
