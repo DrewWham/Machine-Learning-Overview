@@ -8,12 +8,12 @@ Examples: Sales forecasting, Vegas odds, insurance risk, credit fraud detection
 ### Regression
 * Least Squares
 * Sequential
-* Penalized Regression - [glmnet - R Package] (https://cran.r-project.org/web/packages/glmnet/glmnet.pdf)
+* Penalized Regression - [glmnet - R Package](https://cran.r-project.org/web/packages/glmnet/glmnet.pdf)
    * Ridge
    * LASSO
    * Group LASSO, Elastic Net ...
-* Gaussian Process regression
-* Decision Tree
+* Gaussian Process regression - [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf) [Python code](http://scikit-learn.org/stable/modules/gaussian_process.html)
+* Decision Tree - [Generalized Boosted Regression Model - R package](https://cran.r-project.org/web/packages/gbm/gbm.pdf) [random forest - R package](https://cran.r-project.org/web/packages/randomForest/randomForest.pdf) [lightGBM - Python package](http://lightgbm.readthedocs.io/en/latest/) [xgboost - R and Python package](http://xgboost.readthedocs.io/en/latest/)
 * [Support vector machines](https://en.wikipedia.org/wiki/Support_vector_machine) ([GPU accelerated code](https://github.com/zeyiwen/thundersvm))
 * Neural Networks 
 ### Classification
