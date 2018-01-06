@@ -44,7 +44,7 @@ Examples: Youtube Recomendations, google translate
 ### Non-Parametric Classification
 * Gaussian Mixture Models
 * Dirichlet Process Models
-* DBSCAN
+* [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) ([R package - dbscan](https://cran.r-project.org/web/packages/dbscan/dbscan.pdf))
 
 ## Other Domains that are Interestingly Different
 --------
