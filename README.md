@@ -22,6 +22,8 @@ Examples: Sales forecasting, Vegas odds, insurance risk, credit fraud detection
 
 ### Feature Importance
 * Factor Analysis
+* Analysis of Feature Importance - [XGBoost explainer](https://medium.com/applied-data-science/new-r-package-the-xgboost-explainer-51dd7d1aa211) ([R Package](https://github.com/AppliedDataSciencePartners/xgboostExplainer)) ([randomForestExplainer] (https://cran.r-project.org/web/packages/randomForestExplainer/randomForestExplainer.pdf))
+
 
 ### Supervised Dimensionality Reduction
 * LDA
