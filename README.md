@@ -47,9 +47,9 @@ Examples: Youtube Recomendations, google translate
 * Gaussian Mixture Models
 * Dirichlet Process Models
 * [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) ([R package - dbscan](https://cran.r-project.org/web/packages/dbscan/dbscan.pdf))
-
-### Other Domains that are Interestingly Different
 --------
+### Other Domains that are Interestingly Different
+
 Use cases: A/B/C... tests, maintain equalibrium or setpoint, explore/exploit optimization 
 Examples:Website optimization, content personalization, auto pilot
 
@@ -57,20 +57,20 @@ Examples:Website optimization, content personalization, auto pilot
 * PID Algorithm - [PID controller](https://en.wikipedia.org/wiki/PID_controller) ([Python Code](https://github.com/ivmech/ivPID))
 * Bandit Algorithms - [Introduction to Multi-Armed Bandits](http://slivkins.com/work/MAB-book.pdf) ([Python Code](https://github.com/johnmyleswhite/BanditsBook))
 * Reinforcement Learning
-
-# Ensembles 
 --------
+# Ensembles 
+
 [Kaggle Ensambling Guide](https://mlwave.com/kaggle-ensembling-guide/)
 * Voting
 * Averaging
 * Stacked ensembling/Blending
 
 Be careful when you ensamble, "Here there be dragons."
-[Competing in a data science contest without reading the data](http://blog.mrtz.org/2015/03/09/competition.html)
-[The reusable holdout: Preserving validity in adaptive data analysis](http://science.sciencemag.org/content/349/6248/636.full)
-
-# Evaluating Accuracy
+* [Competing in a data science contest without reading the data](http://blog.mrtz.org/2015/03/09/competition.html)
+* [The reusable holdout: Preserving validity in adaptive data analysis](http://science.sciencemag.org/content/349/6248/636.full)
 --------
+# Evaluating Accuracy
+
 * [How data scientists can convince doctors that AI works](https://towardsdatascience.com/how-data-scientists-can-convince-doctors-that-ai-works-c27121432ccd)
 * [Do machines actually beat doctors? ROC curves and performance metrics](https://lukeoakdenrayner.wordpress.com/2017/12/06/do-machines-actually-beat-doctors-roc-curves-and-performance-metrics/)
 
