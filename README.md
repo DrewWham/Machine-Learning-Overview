@@ -43,8 +43,8 @@ Examples: Sales forecasting, Vegas odds, insurance risk, credit fraud detection
 * [Support vector machines](https://en.wikipedia.org/wiki/Support_vector_machine) ([GPU accelerated code](https://github.com/zeyiwen/thundersvm))
 * Neural Networks 
 #### Classification
-* KNN
-* Decision Tree
+* K-Nearest Neighbors - [Fast KNN](https://cran.r-project.org/web/packages/FNN/FNN.pdf)
+* Decision Tree - ([R package - Generalized Boosted Regression Model](https://cran.r-project.org/web/packages/gbm/gbm.pdf)) ([ R package - random forest](https://cran.r-project.org/web/packages/randomForest/randomForest.pdf)) ([Python package with GPU acceleration - lightGBM ](http://lightgbm.readthedocs.io/en/latest/)) ([R and Python package with GPU acceleration - xgboost](http://xgboost.readthedocs.io/en/latest/))
 
 #### Feature Importance
 * Factor Analysis
@@ -64,12 +64,12 @@ Examples: Youtube Recomendations, google translate
 * PCA - [Practical Guide to Principal Component Analysis (PCA) in R & Python](https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/)
 * T-SNE - [Comprehensive Guide on t-SNE algorithm with implementation in R & Python](https://www.analyticsvidhya.com/blog/2017/01/t-sne-implementation-r-python/) ([R Package](https://cran.r-project.org/web/packages/Rtsne/Rtsne.pdf))
 * Vector Embeddings/Distributed Representations - [An Intuitive Understanding of Word Embeddings: From Count Vectors to Word2Vec](https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/) ([Python Package- gensim](http://gensim.readthedocs.io/en/latest/))
-* Matrix Factorization
+* Matrix Factorization - [Spotlight - Python-Pytorch package](https://github.com/maciejkula/spotlight)
 * Autoencoders
 
 #### Non-Parametric Classification
-* Gaussian Mixture Models
-* Dirichlet Process Models
+* Mixture Models - [mixtools - R Package](http://r.adu.org.za/web/packages/mixtools/vignettes/mixtools.pdf)
+* Dirichlet Process Models [Python package](http://scikit-learn.org/stable/modules/mixture.html#the-dirichlet-process)
 * [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) ([R package - dbscan](https://cran.r-project.org/web/packages/dbscan/dbscan.pdf))
 --------
 ### Other Domains that are Interestingly Different
