@@ -1,7 +1,7 @@
 # Overview-of-Machine-Learning
 
 ## Informal Taxonomy of ML Algorithms
-
+--------
 ### Supervised
 --------
 Use cases: Prediction, classification and labeling, quntification of risk and uncertinty, feedback based recomendation
@@ -58,9 +58,21 @@ Examples:Website optimization, content personalization, auto pilot
 * Bandit Algorithms - [Introduction to Multi-Armed Bandits](http://slivkins.com/work/MAB-book.pdf) ([Python Code](https://github.com/johnmyleswhite/BanditsBook))
 * Reinforcement Learning
 
+# Ensembles 
+--------
+[Kaggle Ensambling Guide](https://mlwave.com/kaggle-ensembling-guide/)
+* Voting
+* Averaging
+* Stacked ensembling/Blending
 
+Be careful when you ensamble, "Here there be dragons."
+[Competing in a data science contest without reading the data](http://blog.mrtz.org/2015/03/09/competition.html)
+[The reusable holdout: Preserving validity in adaptive data analysis](http://science.sciencemag.org/content/349/6248/636.full)
 
-
+# Evaluating Accuracy
+--------
+* [How data scientists can convince doctors that AI works](https://towardsdatascience.com/how-data-scientists-can-convince-doctors-that-ai-works-c27121432ccd)
+* [Do machines actually beat doctors? ROC curves and performance metrics](https://lukeoakdenrayner.wordpress.com/2017/12/06/do-machines-actually-beat-doctors-roc-curves-and-performance-metrics/)
 
 
 
