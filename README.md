@@ -1,6 +1,6 @@
 # Overview-of-Machine-Learning
 
-## Informal Taxonomy of ML Algorithms
+## ML Algorithms
 --------
 ### Supervised
 --------
