@@ -80,7 +80,7 @@ Examples:Website optimization, content personalization, auto pilot
 #### Autonomus Control/Decision Theory
 * PID Algorithm - [PID controller](https://en.wikipedia.org/wiki/PID_controller) ([Python Code](https://github.com/ivmech/ivPID))
 * Bandit Algorithms - [Introduction to Multi-Armed Bandits](http://slivkins.com/work/MAB-book.pdf) ([Python Code](https://github.com/johnmyleswhite/BanditsBook))
-* Reinforcement Learning
+* Reinforcement Learning - [Introduction to Various Reinforcement Learning Algorithms. Part I (Q-Learning, SARSA, DQN, DDPG)](https://medium.com/@huangkh19951228/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287)
 --------
 # Ensembles 
 
