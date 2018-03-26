@@ -28,7 +28,7 @@
 --------
 ### Supervised
 --------
-Use cases: Prediction, classification and labeling, quntification of risk and uncertinty, feedback based recomendation
+Use cases: Prediction, classification and labeling, quntification of risk and uncertinty, feedback based recommendation
 Examples: Sales forecasting, Vegas odds, insurance risk, credit fraud detection
 
 #### Regression
@@ -57,7 +57,7 @@ Examples: Sales forecasting, Vegas odds, insurance risk, credit fraud detection
 
 ### Unsupervised
 --------
-Use cases: Structure Discovery, grouping/labeling when no labels are known, implicit recomendation, improve supervised methods
+Use cases: Structure Discovery, grouping/labeling when no labels are known, implicit recommendation, improve supervised methods
 Examples: Youtube Recomendations, google translate 
 
 #### Dimensionality Reduction
