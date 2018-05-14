@@ -22,7 +22,7 @@
 ### Modeling
 * [Tensorflow](https://www.tensorflow.org)
 * [Pytorch](http://pytorch.org)
-* [H2O](https://www.h2o.ai)
+* [H2O](https://www.h2o.ai)([cheatsheet](https://github.com/jtelleria/H2O-Cheatsheet/blob/master/h2o.pdf))
 
 ## ML Algorithms
 --------
