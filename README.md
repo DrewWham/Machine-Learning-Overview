@@ -14,7 +14,7 @@
 ### Cluster Computing
 * [pyspark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html) ([cheatsheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_Cheat_Sheet_Python.pdf))
 * [sparkr](https://spark.apache.org/docs/latest/sparkr.html)
-* [H20](https://www.h2o.ai)
+* [H20](https://www.h2o.ai)([cheatsheet](https://github.com/jtelleria/H2O-Cheatsheet/blob/master/h2o.pdf))
 
 ### Cloud Computing
 * [AWS](https://aws.amazon.com)
