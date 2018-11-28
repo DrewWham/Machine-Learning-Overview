@@ -89,4 +89,4 @@ mModel$Sample <- factor(mModel$Sample, levels = mModel$Sample[match(order$Sample
 mModel[!mModel$Sample=="NA",]->mModel
 ggplot(mModel ,aes(x=Sample,y=Probability,fill=Species))+geom_bar(stat="identity",position="stack")+ scale_fill_brewer(palette="Spectral")+theme(axis.text.x = element_text(size=5, angle = 90, hjust = 1,colour="black"))
 
-ggsave("Species_prob.csv")
+ggsave("Species_prob.pdf")
