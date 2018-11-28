@@ -1,6 +1,7 @@
 library(caret)
 library(Matrix)
 library(xgboost)
+library(reshape2)
 
 #read in the pre processed data
 read.csv("train.csv")->train
