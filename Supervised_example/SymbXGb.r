@@ -1,11 +1,11 @@
 library(caret)
 library(Matrix)
 library(xgboost)
-library(reshape2)
+library(data.table)
 
 #read in the pre processed data
-read.csv("train.csv")->train
-read.csv("test.csv")->test
+train<-fread("./Supervised_example/train.csv")
+test<-fread("./Supervised_example/test.csv")
 #read.csv("Ftrain.csv")->train
 
 #save the ID of each sample we will not use this in the training but will need it for plotting
@@ -17,8 +17,7 @@ test.ID<-as.character(test.ID)
 test$Sample<-NULL
 
 #the Seq column contains the value we want to predict, saving this as the "Target" or Y-value
-train$Seq <- as.integer(train$Seq)
-train$Target<-train$Seq-1
+train$Target<-(train$Seq=="S. glynnii")*1
 Target<-train$Target
 train$Seq<-NULL
 test$Seq<-NULL
@@ -40,6 +39,8 @@ train<-subset(all.data,test==0)
 train$test<-NULL
 test$test<-NULL
 
+
+#often '-9' is scored for genetic data when data is missing, we need to change that to NA
 train[train== -9]<- NA
 test[test== -9]<- NA
 
@@ -59,7 +60,7 @@ param <- list(  objective           = "binary:logistic",
 
 
 #because we have a small dataset we can use a large k-fold method to evaluate accuracy of the model on held out data
-CV<-xgb.cv(params=param,nrounds=1000,nfold=53,missing=NA,prediction=T,data=dtrain,label=Target)
+CV<-xgb.cv(data=dtrain,label=Target,params=param,nrounds=1000,nfold=53,missing=NA,prediction=T)
 XGBm<-xgb.train( params=param,nrounds=1000,missing=NA,data=dtrain,label=Target)   
 Prob<-predict(XGBm,newdata=dtest)
 
