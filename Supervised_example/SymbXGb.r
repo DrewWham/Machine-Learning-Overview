@@ -55,7 +55,7 @@ param <- list(  objective           = "binary:logistic",
                 eta                 = 0.01,
                 max_depth           = 4,
                 subsample           = 1,
-                colsample_bytree    = 0.9
+                colsample_bytree    = 0.8
 )
 
 
@@ -83,11 +83,11 @@ Model$pS.glynnii<-1-Model$pS.trenchii
 Model<-Model[!duplicated(Model$Sample),]
 mModel<-melt(Model)
 names(mModel)<-c("Sample","Species","Probability")
-read.csv("PlotOrder.csv")->order
+read.csv("./Supervised_example/PlotOrder.csv")->order
 
 
 mModel$Sample <- factor(mModel$Sample, levels = mModel$Sample[match(order$Sample,mModel$Sample)])
 mModel[!mModel$Sample=="NA",]->mModel
 ggplot(mModel ,aes(x=Sample,y=Probability,fill=Species))+geom_bar(stat="identity",position="stack")+ scale_fill_brewer(palette="Spectral")+theme(axis.text.x = element_text(size=5, angle = 90, hjust = 1,colour="black"))
 
-ggsave("Species_prob.pdf")
+ggsave("./Supervised_example/Species_prob.pdf")
